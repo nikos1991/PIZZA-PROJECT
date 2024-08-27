@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url("../fonts/ProximaNova-Black.eot");
+    src: local("./fonts/Proxima Nova Black"),local("ProximaNova-Black"),url("./fonts/ProximaNova-Black.eot?#iefix") format("embedded-opentype"),url("./fonts/ProximaNova-Black.woff") format("woff"),url("./fonts/ProximaNova-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url("../fonts/ProximaNova-Bold.eot");
+    src: local("./fonts/Proxima Nova Bold"),local("ProximaNova-Bold"),url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"),url("../fonts/ProximaNova-Bold.woff") format("woff"),url("./fonts/ProximaNova-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url("../fonts/ProximaNova-Regular.eot");
+    src: local("./fonts/Proxima Nova Regular"),local("ProximaNova-Regular"),url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),url("../fonts/ProximaNova-Regular.woff") format("woff"),url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url("../fonts/ProximaNova-Extrabld.eot");
+    src: local("../fonts/Proxima Nova Extrabold"),local("ProximaNova-Extrabld"),url("../fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"),url("../fonts/ProximaNova-Extrabld.woff") format("woff"),url("../fonts/ProximaNova-Extrabld.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal
+}
+
+html, body,h1,p {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    background-color: #FFDF8C;
+    
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    width: 100vw;
+    height: 100%;
+    margin: 43px auto;
+    max-width: 1440px;
+
+}
+
+.header{
+    display:flex;
+    align-items: end;
+    justify-content: space-between;
+    height: 137px;
+    background-color: #ffffff;
+    border-radius: 10px 10px 0 0;
+ 
+}
+.content{
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 77px; 
+    margin-bottom: 40px;
+}
+.title-text{
+    display: flex;
+    flex-direction: column;   
+
+}
+.title img {
+    display: flex;
+    align-items:center;
+    width: 38px;
+    margin-right: 17px;
+ 
+}
+.title h1{
+    font-family: Proxima Nova;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29.23px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.title p {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.49px;
+    text-align: left;
+    color: #7B7B7B;
+
+
+}
+.cart-button{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 150px;
+    height: 50px;
+    background-color: #FE5F1E;
+    border-radius: 30px;
+    margin-bottom: 35px;
+    margin-right: 38px;   
+
+}
+.cart-button:hover{
+    background-color: #dd531d;
+}
+.cart-button:active{
+    background-color: #dd531d;
+    transform: translateY(4px);
+}
+
+.divider {
+    background-color: #F6F6F6;
+    height: 1px;
+    margin-left: 12px;
+}
+.price {
+    display: flex;
+    align-items: center;    
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.49px;
+    text-align: left;
+    color: #ffffff;
+
+
+
+}
+
+.button-divider {
+    display: flex;
+    align-items: center; 
+    height: 25px;
+    width: 1px;
+    background-color: #FFFFFF; 
+    opacity: 25%;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+      
+}
+.icon img {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+
+
+}
+.icon span {
+    color: #ffffff;
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.49px;
+    text-align: left;
+
+}
