@@ -10,7 +10,7 @@
             
             <div class="header">
                     <div class = "title">
-                       <img src="img/pizza.svg" />
+                       <img src="img/icons/pizza.svg" />
                        <div class ="title-text"> 
                         <h1>REACT PIZZA</h1>
                         <p>самая вкусная пицца по вселенной</p>
@@ -20,17 +20,275 @@
                         <div class = "price">520 ₽</div>
                         <div class="button-divider"></div>
                         <div class="icon">
-                            <img src="img/shopcart.svg" />
+                            <img src="img/icons/shopcart.svg" />
                             <span>3</span>
                         </div>
 
                     </a>
                     
             </div>
-            <div class = "divider"> </div>
+            <div class = "divider"></div>
             <div class="content">
-
+                <div class = "pizza-picker">
+                 <div class = "pizza-category">
+                   <div class = "category category-active">Все</div>
+                   <div class = "category">Мясные</div> 
+                   <div class = "category">Вегетарианская</div> 
+                   <div class = "category">Гриль</div> 
+                   <div class = "category">Острые</div> 
+                   <div class = "category">Закрытые</div> 
+                 </div>
+                 <div class = "pizza-sort">
+                    <span class ="sort-text">Сортировка по: </span>
+                    <div class = "sort-picker">
+                        <p> популярности</p>
+                        <div class = "sort-list">
+                            <span class = "list-active">популярности</span> 
+                            <span>цене</span> 
+                            <span>по алфавиту</span>   
+                        </div>
+                    </div>
+                </div>   
                 </div>
+                <div class ="content-header">Все пиццы</div>
+                <div class = "pizza-grid">
+                    <div class ="pizza-card">
+                        <img src="img/pizza/cheesburgerpizza.svg" />
+                        <div class="card-content flex-column">
+                            <h3>Чизбургер-пицца</h3>
+                            <div class = "pizza-size-picker">
+                                <div class = "bread-type">
+                                    <span class="active">тонкое</span>
+                                    <span>традиционное</span>
+                                </div>
+                                <div class = "pizza-diameter">
+                                    <span class = "active">26 см.</span>
+                                    <span>30 см.</span>
+                                    <span> 40см.</span>
+                                </div>
+                            </div>
+                            <div class = "pizza-properties">
+                                <div class = "pizza-order">
+                                    <span class = "pizza-price">От 395 р</span>
+                                    <div class = "order-button">
+                                        <span class = "plus-icon" >+</span>
+                                        <span class = "order-button-text" >Добавить</span>
+                                        <span class = "pizza-counter">2</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class ="pizza-card">
+                        <img src="img/pizza/cheese.svg" />
+                        <div class="card-content flex-column">
+                            <h3>Сырная</h3>
+                            <div class = "pizza-size-picker">
+                                <div class = "bread-type">
+                                    <span class="active">тонкое</span>
+                                    <span>традиционное</span>
+                                </div>
+                                <div class = "pizza-diameter">
+                                    <span class = "active">26 см.</span>
+                                    <span class = "unavailable">30 см.</span>
+                                    <span class = "unavailable"> 40см.</span>
+                                </div>
+                            </div>
+                            <div class = "pizza-properties">
+                                <div class = "pizza-order">
+                                    <span class = "pizza-price">От 395 р</span>
+                                    <div class = "order-button">
+                                        <span class = "plus-icon" >+</span>
+                                        <span class = "order-button-text" >Добавить</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class ="pizza-card">
+                        <img src="img/pizza/shrimps.svg" />
+                        <div class="card-content flex-column">
+                            <h3>Креветки по-азиатски</h3>
+                            <div class = "pizza-size-picker">
+                                <div class = "bread-type">
+                                    <span class="active">тонкое</span>
+                                    <span class = "unavailable">традиционное</span>
+                                </div>
+                                <div class = "pizza-diameter">
+                                    <span class = "unavailable">26 см.</span>
+                                    <span class = "active">30 см.</span>
+                                    <span class = "unavailable"> 40см.</span>
+                                </div>
+                            </div>
+                            <div class = "pizza-properties">
+                                <div class = "pizza-order">
+                                    <span class = "pizza-price">От 395 р</span>
+                                    <div class = "order-button">
+                                        <span class = "plus-icon" >+</span>
+                                        <span class = "order-button-text" >Добавить</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class ="pizza-card">
+                        <img src="img/pizza/cheesechicken.svg" />
+                        <div class="card-content flex-column">
+                            <h3>Сырный цыпленок</h3>
+                            <div class = "pizza-size-picker">
+                                <div class = "bread-type">
+                                    <span class="active">тонкое</span>
+                                    <span>традиционное</span>
+                                </div>
+                                <div class = "pizza-diameter">
+                                    <span class = "active">26 см.</span>
+                                    <span>30 см.</span>
+                                    <span> 40см.</span>
+                                </div>
+                            </div>
+                            <div class = "pizza-properties">
+                                <div class = "pizza-order">
+                                    <span class = "pizza-price">От 395 р</span>
+                                    <div class = "order-button">
+                                        <span class = "plus-icon" >+</span>
+                                        <span class = "order-button-text" >Добавить</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class = "pizza-grid">
+                    <div class ="pizza-card">
+                        <img src="img/pizza/cheesburgerpizza.svg" />
+                        <div class="card-content flex-column">
+                            <h3>Чизбургер-пицца</h3>
+                            <div class = "pizza-size-picker">
+                                <div class = "bread-type">
+                                    <span class="active">тонкое</span>
+                                    <span>традиционное</span>
+                                </div>
+                                <div class = "pizza-diameter">
+                                    <span class = "active">26 см.</span>
+                                    <span>30 см.</span>
+                                    <span> 40см.</span>
+                                </div>
+                            </div>
+                            <div class = "pizza-properties">
+                                <div class = "pizza-order">
+                                    <span class = "pizza-price">От 395 р</span>
+                                    <div class = "order-button">
+                                        <span class = "plus-icon" >+</span>
+                                        <span class = "order-button-text" >Добавить</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class ="pizza-card">
+                        <img src="img/pizza/cheese.svg" />
+                        <div class="card-content flex-column">
+                            <h3>Сырная</h3>
+                            <div class = "pizza-size-picker">
+                                <div class = "bread-type">
+                                    <span class="active">тонкое</span>
+                                    <span>традиционное</span>
+                                </div>
+                                <div class = "pizza-diameter">
+                                    <span class = "active">26 см.</span>
+                                    <span class = "unavailable">30 см.</span>
+                                    <span class = "unavailable"> 40см.</span>
+                                </div>
+                            </div>
+                            <div class = "pizza-properties">
+                                <div class = "pizza-order">
+                                    <span class = "pizza-price">От 395 р</span>
+                                    <div class = "order-button">
+                                        <span class = "plus-icon" >+</span>
+                                        <span class = "order-button-text" >Добавить</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class ="pizza-card">
+                        <img src="img/pizza/shrimps.svg" />
+                        <div class="card-content flex-column">
+                            <h3>Креветки по-азиатски</h3>
+                            <div class = "pizza-size-picker">
+                                <div class = "bread-type">
+                                    <span class="active">тонкое</span>
+                                    <span class = "unavailable">традиционное</span>
+                                </div>
+                                <div class = "pizza-diameter">
+                                    <span class = "unavailable">26 см.</span>
+                                    <span class = "active">30 см.</span>
+                                    <span class = "unavailable"> 40см.</span>
+                                </div>
+                            </div>
+                            <div class = "pizza-properties">
+                                <div class = "pizza-order">
+                                    <span class = "pizza-price">От 395 р</span>
+                                    <div class = "order-button">
+                                        <span class = "plus-icon" >+</span>
+                                        <span class = "order-button-text" >Добавить</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class ="pizza-card">
+                        <img src="img/pizza/cheesechicken.svg" />
+                        <div class="card-content flex-column">
+                            <h3>Сырный цыпленок</h3>
+                            <div class = "pizza-size-picker">
+                                <div class = "bread-type">
+                                    <span class="active">тонкое</span>
+                                    <span>традиционное</span>
+                                </div>
+                                <div class = "pizza-diameter">
+                                    <span class = "active">26 см.</span>
+                                    <span>30 см.</span>
+                                    <span> 40см.</span>
+                                </div>
+                            </div>
+                            <div class = "pizza-properties">
+                                <div class = "pizza-order">
+                                    <span class = "pizza-price">От 395 р</span>
+                                    <div class = "order-button">
+                                        <span class = "plus-icon" >+</span>
+                                        <span class = "order-button-text" >Добавить</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            
+              
+               
+
+
+              
+             
+            </div>
 
             
         </div>
