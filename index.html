@@ -4,16 +4,25 @@
         <meta charset="UTF-8" />
         <title>Document</title>
         <link rel="stylesheet" href="styles/styles.css" />
+        <script src="js/modal.js"></script>
     </head>
     <body>
         <div class="wrapper" >
+            <div class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h1>Заголовок модалки</h1>
+                    <p>Текст модалки. Это короче самая вкусная питса на районе.</p>
+                    <button class = "button">Ок!</button>
+                </div>
+            </div>
             
             <div class="header">
                     <div class = "title">
-                       <img src="img/icons/pizza.svg" />
+                       <img class = "modal-open" src="img/icons/pizza.svg" />
                        <div class ="title-text"> 
-                        <h1>REACT PIZZA</h1>
-                        <p>самая вкусная пицца по вселенной</p>
+                            <h1>REACT PIZZA</h1>
+                            <p>самая вкусная пицца по вселенной</p>
                        </div>
                     </div>
                     <a href ="#" class ="cart-button">
